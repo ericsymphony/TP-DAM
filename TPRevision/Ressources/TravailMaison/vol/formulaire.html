@@ -1,0 +1,119 @@
+<!-- formulaire.html -->
+<!DOCTYPE html>
+<html lang="fr">
+    <head lang="fr">
+        <meta charset="UTF-8"/>
+        <title>Vol</title>
+        <link rel="stylesheet" type="text/css" href="./styleFormulaire.css">
+        <!-- Bootstrap -->
+        <link href="../../Bootstrap/bootstrapLocal/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+<body>
+<header>
+    <div class="bg-img" id="flex-container">
+
+        <div class="flex-item-form">
+          
+          <form>
+
+            <div class="form-group">
+              UGA-VOLS
+            </div>
+            
+            <div id="flex-container">
+            <div class="flex-item">
+            <div class="form-group">
+              <label for="destination">Au départ de </label>
+                <select class="form-control-text">
+                  <option>Biarritz BIQ</option>
+                  <option>Brest (Bretagne) BES</option>
+                  <option>Grenoble GNB</option>
+                  <option>Lyon LYS</option>
+                  <option>Nice NCE</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+              <label for="ville">Destination</label>
+                <select class="form-control-text">
+                  <option>Ajaccio (Corse) AJA</option>
+                  <option>Brest (Bretagne) BES</option>
+                  <option>Bordeaux BOD</option>
+                  <option>Nantes NTE</option>
+                  <option>Toulouse TLS</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+              <label for="start">Date de l'allé *</label>
+                <input type="date" id="departdate" name="trip-start"
+                value="2020-01-11"
+                min="2020-01-11" max="2020-12-31">
+            </div>
+
+            <div class="form-group">
+              <label for="start">Date du retour *</label>
+                <input type="date" id="departdate" name="trip-start"
+                value="2020-01-11"
+                min="2020-01-11" max="2020-12-31">
+            </div>
+
+            </div>
+            </div>
+
+
+
+            <div id="flex-container">
+            <div class="flex-item-voy">
+            <div class="form-group">
+              <label for="adultes">Adultes</label>
+                <select class="form-control-nbre">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>Groupe</option>
+                </select>
+              <label for="enfants">Enfants &#x2A7D 16 ans </label>
+                <select class="form-control-nbre">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>Groupe</option>
+                </select>
+                <label for="bebes">Bébés &#x2A7D 2 ans</label>
+                <select class="form-control-nbre">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>Groupe</option>
+                </select>
+            </div>
+
+</div>
+</div>
+
+<div id="flex-container">
+            <div class="flex-item-bout">
+
+            <div class="form-group">
+              <button type="button" class="btn btn-primary">AFFICHER LES VOLS</button>
+            </div>
+
+          </form>
+        </div>
+
+    </div>
+
+</header>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./bootstrapLocal//jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap's JavaScript plugins -->
+    <script src="./bootstrapLocal/bootstrap.min.js"></script>
+    <!-- Popper's JavaScript plugins -->
+    <script src="./bootstrapLocal/popper.min.js"></script>
+</body>
+</html>

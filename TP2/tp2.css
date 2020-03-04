@@ -1,0 +1,95 @@
+#image{
+    opacity:0.5;
+}
+
+a {
+    text-decoration: underline; /* Les liens ne seront plus soulignés */
+    color: white; /* Les liens seront en rouge au lieu de bleu */
+    background-color: royalblue;
+  }
+
+a:hover {
+    text-decoration: none;
+    background-color: white; 
+    color: blue;
+    }
+
+a:active /* Quand le visiteur clique sur le lien */ {
+    background-color: white;
+   }
+
+.th {
+    color: white;
+    background-color: green;
+} 
+
+body {
+    color :#4D4D4D;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 0.9em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+.he {
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fo {
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fleur {
+    background-color: yellow;
+}
+
+.milieu {
+    background-color: blue;
+}
+
+.droite {
+    background-color: violet;
+}
+
+
+h1 {
+    text-decoration: underline;
+    font-family : small-caps;
+}
+    
+table {
+    border:1px black solid;
+    border-collapse: collapse;
+}
+
+table:nth-last-of-type(1){
+    border: 1px solid yellow;
+    background: green;
+}
+
+.tab {
+    border:1px yellow solid;
+    background: violet;
+}
+
+td {
+    border:1px black solid;
+}
+

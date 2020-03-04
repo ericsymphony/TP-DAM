@@ -1,0 +1,35 @@
+body {
+    font-family : Arial, sans-serif;
+    font-size : 0.9em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+
+h1, h2 {
+    font-family : small-caps;
+    color :#000080;
+}
+
+table {
+    border:1px #000080 solid;
+    border-collapse: collapse;
+}
+
+.gris {
+    background: #D0E3FA;
+}
+
+td {
+    border:1px #000080 solid;
+    text-align: center;
+    font-weight:bold;
+}
+
+a {
+    text-decoration: underline; /* Les liens ne seront plus soulignés */
+    color:  #000080; /* Les liens seront en rouge au lieu de bleu */
+    background-color: #D0E3FA;
+  }

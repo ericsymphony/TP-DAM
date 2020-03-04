@@ -1,0 +1,65 @@
+/* entete.css
+gris #F4F4F4
+bleu clair  #4781C4
+rouge #DE2574*/
+
+body {  
+    font-family:Times serif;    
+    width:90%;
+    color:#4781C4;
+      
+}
+
+#nav{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    
+
+}
+
+nav li a{
+    height:40px;
+    width: 100px;
+    text-align: center;
+    border-right:2px solid black;
+    border-spacing: 0pt;
+
+
+}
+
+nav ul {
+   list-style-type: none;
+
+}
+
+a {
+    color:#4781C4;
+    background-color:#F4F4F4;
+    padding-top:20px;
+    padding-right:8px;
+    padding-left:8px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #DE2574;
+    color:white
+}
+
+#flex-container{
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+
+.flex-item{
+    display:flex; 
+    flex-wrap: wrap;
+    width:100%;
+    align-self: center;
+
+
+}
+

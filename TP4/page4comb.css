@@ -1,0 +1,33 @@
+body {  
+    background-color:blue;
+    color: white;
+    
+}
+
+h1 {
+    margin:5px;
+    padding:10px;
+}
+
+p {
+    background-color:blue;
+    width: 300px;
+}
+
+img {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 220px;;
+}
+span{
+    position: absolute;
+    margin-top: 20px;
+}
+.test {
+    background-color:green;
+    padding: 10px;
+    height:150px;
+    position: relative;
+    margin-top: 10px;
+    right: 0em;
+}

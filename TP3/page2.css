@@ -1,0 +1,15 @@
+body {
+    padding-left:auto;
+    padding-right:auto;
+    padding-top:auto;
+    padding-bottom:auto;
+    background-color:#303050 ;
+    color:white
+}
+
+p {
+    display:inline-block;
+    width:200px;
+    vertical-align:top;
+    background-color:#505070;
+}

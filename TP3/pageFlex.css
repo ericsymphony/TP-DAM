@@ -1,0 +1,35 @@
+body {  
+    padding-left:auto;
+    padding-right:auto;
+    padding-top:auto;
+    padding-bottom:auto;
+    background-color:#303050 ;
+    color:black
+}
+
+#flex-container{
+    display:flex;
+    align-items:center;
+}
+
+.flex-item{
+
+}
+
+.flex-item:nth-child(1) { 
+    background-color:red;
+    height:30%;
+}
+
+.flex-item:nth-child(2) { 
+    background-color:green;
+}
+
+.flex-item:nth-child(3) { 
+    background-color: blue;
+    height:30%;
+}
+
+p {
+    vertical-align:top;
+}

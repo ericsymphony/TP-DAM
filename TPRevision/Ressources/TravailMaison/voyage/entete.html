@@ -1,0 +1,113 @@
+<!-- entete.html -->
+<!DOCTYPE html>
+<html lang="fr">
+    <head lang="fr">
+        <meta charset="UTF-8"/>
+        <title>Integration</title>
+        <link rel="stylesheet" type="text/css" href="./entete.css">
+        <!-- Bootstrap -->
+        <link href="./bootstrapLocal/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+<body>
+<header>
+    <div id="flex-container"> 
+
+        <div class="flex-item">
+            <img src= "./logo-320-83.jpg" id="image" title="logo" position="left">
+            <h1>AU PAYS DES VOYAGES...</h1>
+
+            <nav>  
+                <ul id="nav">
+                    <li id="nav"><a href="">ACCUEIL</a></li>
+                    <li id="nav"><a href="">VOL/TRAIN</a></li>
+                    <li id="nav"><a href="">SEJOUR</a></li>
+                    <li id="nav"><a href="">CIRCUIT</a></li>
+                    <li id="nav"><a href="">CROISIERE</a></li>
+                    <li id="nav"><a href="">VOL+HOTEL</a></li>
+                    <li id="nav"><a href="">HOTEL</a></li>
+                    <li id="nav"><a href="">PROMOS</a></li>
+                    <li id="nav"><a href="">INSPIRATION</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="flex-item-form">
+          
+          <form>
+
+            <div class="form-group">
+              Votre prestation:
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineSejour" value="sejour">
+                <label class="form-check-label" for="inlineSejour">Séjour</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineCircuit" value="circuit">
+                <label class="form-check-label" for="inlineCircuit">Circuit</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineCroisiere" value="croisiere">
+                <label class="form-check-label" for="inlineCroisiere">Croisière</label>
+            </div>
+
+
+            <div class="form-group">
+              Vos choix:
+            </div>
+            
+            <div class="form-group">
+              <label for="destination">Destination</label>
+                <select class="form-control">
+                  <option>Guadeloupe</option>
+                  <option>Martinique</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+              <label for="ville">Ville de départ:</label>
+                <select class="form-control">
+                  <option>Indifférent</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+              <label for="duree">Durée:</label>
+                <select class="form-control">
+                  <option>Indifférente</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+              <label for="start">Date de départ:</label>
+                <input type="date" id="departdate" name="trip-start"
+                value="2020-01-11"
+                min="2020-01-11" max="2020-12-31">
+            </div>
+
+            <div class="form-group">
+              <button type="button" class="btn btn-primary">Valider</button>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="flex-item-image">
+            <img src= "./image-578-219.jpg" id="image" title="logo" position="left">
+        </div>
+
+    </div>
+
+</header>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./bootstrapLocal//jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap's JavaScript plugins -->
+    <script src="./bootstrapLocal/bootstrap.min.js"></script>
+    <!-- Popper's JavaScript plugins -->
+    <script src="./bootstrapLocal/popper.min.js"></script>
+</body>
+</html>

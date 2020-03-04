@@ -1,0 +1,19 @@
+body {
+    width:50%;
+    border:solid 1px red;
+    padding-left:auto;
+    padding-right:auto;
+    padding-top:auto;
+    padding-bottom:auto;
+    background-color:#303050 ;
+    color:white
+}
+
+p {
+    border:solid 2px green;
+    padding-left:10px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:#505070;
+}
